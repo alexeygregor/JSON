@@ -1,0 +1,10 @@
+syntax = "proto2";
+
+message Business
+{
+  required int32 stock_flotation = 1;
+  required string legal_adress = 2;
+  required string company_name = 3;
+  optional string line_activity = 4;
+  optional bool foreign_economic_activity = 5;
+}
